@@ -1,31 +1,31 @@
 ---
-title: "Introduction - Board Selection"
+title: "Introductie - Bord Selectie"
 style: two-col-page
 lang: nl
 contents:
-- Board Selection
-- Port Selection
+- Bord Selectie
+- Port Selectie
 ---
 
-## Board Selection
+## Bord Selectie
 
-After connecting the (STMB) into the computer, you need to configure the Arduino IDE to know the type of board that you intend to use. This configuration is located at the **`Tools`** menu.
+Na het aansluiten van de (STMB) op de computer is het tijd om in de Arduino IDE aan te geven met welk type bord je aan de slag gaat. Deze instellingen zijn te vinden in het **`Tools`** (nl: Hulpmiddelen) menu.
 
-Move the mouse over to the **`Tools`** menu and click the **`Tools`** menu once. When the **`Tools`** menu appears, move the mouse to the **`Board`** sub menu and another sub menu with a list of boards will appear. Click the **Arduino/Genuino Uno** selection. Arduino IDE is now configured to use the (STMB) as the choice of development board.
+Plaats de muis boven het **`Tools`** (nl: Hulpmiddelen) menu en klik één keer op **`Tools`** (nl: Hulpmiddelen). Nadat het **`Tools`** (nl: Hulpmiddelen) menu verschijnt, beweeg de muis naar het **`Board`** submenu waarna een andere submenu met een lijst van borden zal verschijnen. Selecteer **Arduino/Genuino Uno** door erop te klikken. Arduino IDE is nu ingesteld voor gebruik met de (STMB).
 
-The (STMB) is 100% compatible with Arduino UNO but it is not listed in the Arduino Software's Tools menu. Select "Arduino/Genuino Uno" instead.
+De (STMB) is namelijk 100% compatibel met Arduino UNO, alleen niet beschikbaar in de lijst van het Arduino Software's Tools (nl: Hulpmiddelen) menu. Selecteer daarom dus "Arduino/Genuino Uno".
 {: .info }
 
-## Port Selection
+## Poort Selectie
 
-The Arduino IDE also need to know the communication port of your (STMB). At the **`Tools -> Port`** sub menu, select the appropriate port of your (STMB). Different Operating Systems will show different **`Port`** names.
+Het is ook nodig de communicatie port voor de (STM) in de Arduino IDE in te stellen. Onder het **`Tools -> Port`** (nl: Hulpmiddelen -> Poort) submenu, selecteer je de desbetreffende poort waaraan je (STMB) is aangesloten. De **`Port`** (nl: Poort) namen verschillen per operating systeem.
 
-![Windows Logo](img/windows_logo.svg){: .sixteenth-h .left }On a Windows Operating System, the Arduino IDE will show the (STMB) as **`Port: "COMx (Arduino/Genuino Uno)"`**
+![Windows Logo](img/windows_logo.svg){: .sixteenth-h .left }Op een Windows Operating Systeem zal de Arduino IDE de (STMB) weergeven als **`Port: "COMx (Arduino/Genuino Uno)"`**
 
-![Mac Logo](img/mac_logo.svg){: .sixteenth-h .left }On a Mac OS, the Arduino IDE will show the (STMB) as **`Port: "/dev/tty.usbmodem"`**
+![Mac Logo](img/mac_logo.svg){: .sixteenth-h .left }Op een Mac OS zal de Arduino IDE de (STMB) weergeven als **`Port: "/dev/tty.usbmodem"`**
 
-![Linux Logo](img/linux_logo.svg){: .sixteenth-h .left }On a Linux Operating System, the Arduino IDE will show the (STMB) as **`Port: "/dev/ttyACM0"`**
+![Linux Logo](img/linux_logo.svg){: .sixteenth-h .left }Op een Linux Operating Systeem zal de Arduino IDE de (STMB) weergeven als **`Port: "/dev/ttyACM0"`**
 
-Once the port has been configured, you can proceed to upload your first sketch.
+Nadat de poort is geconfigureerd kan je je eerste schets uploaden.
 
 ![STEMTera Breadboard selection in Arduino IDE](img/arduino_board_selection.svg){: .three-quarter-h-h .center }
