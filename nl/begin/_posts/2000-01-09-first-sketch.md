@@ -1,31 +1,31 @@
 ---
-title: "Introduction - First Sketch"
+title: "Introductie - Eerste Schets"
 style: two-col-page
 lang: nl
 contents:
-- Uploading Your First Sketch
+- Je eerste schets uploaden
 ---
 
-## Uploading Your First Sketch
+## Je eerste schets uploaden
 
-Now, everything has been configured properly and you are ready to upload your first sketch. The quickest way to try your first sketch is to run the `Blink` example. 
+Alles is geconfigureerd. Je bent klaar voor het uploaden van je eerste schets. De snelste optie om je eerste schets uit te proberen is door het runnen van het `Blink` voorbeeld. 
 
-Click File -> Examples -> 01.Basics -> Blink
+Selecteer Bestand -> Voorbeelden -> 01.Basics -> Blink
 {: .mouse }
 
-The `Blink` sketch will be loaded into the Arduino IDE.
+De `Blink` schets zal worden geladen in de Arduino IDE.
 
-Click ![arduino_ide_upload button](img/arduino_ide_upload_icon.svg) Upload, and both yellow LEDs on the (STMB) will start blinking indicating the computer is uploading the sketch to the (STMB).
+Klik ![arduino_ide_upload button](img/arduino_ide_upload_icon.svg) Upload, en vervolgens zullen beide gele LEDs op de (STMB) beginnen te knipperen ter indicatie dat de computer de schets aan het uploaden is naar de (STMB).
 {: .mouse }
 
 ![(STMB) Tx Rx LED Blinking](img/stemtera_tx_rx_blink.svg){: width="75%"}
 
-When the sketch uploading is completed, both yellow LEDs will stop blinking. The message area of the Arduino IDE will display `Done uploading`, indicating upload is completed.
+Beide gele LEDs zullen stoppen met knipperen zodra het uploaden van de schets is afgerond. Het bericht venster onderin de Arduino IDE zal weergeven `Done uploading` (nl: 'Uploaden voltooid').
 
 ![Arduino IDE (STMB) Blink Example](img/arduino_ide_blink.svg){: .three-quarter-h .center}
 
-At the same time, because the `Blink` sketch instructed the (STMB) to blink, you can see the red LED starts to blink.
+Op de (STMB) zal de `Blink` schets de instructies uitvoeren waardoor de rode LED begint met knipperen. 
 
-Your first `Blink` sketch is now successfully being executed by the (STMB).
+Je eerste `Blink` schets draait nu succesvol op de (STMB).
 {: .success }
 
