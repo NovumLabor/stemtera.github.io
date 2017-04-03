@@ -5,7 +5,7 @@ html {
 }
 
 body { 
-	font-size: 1.1vwmax; 
+	font-size: 1.1vw; 
 } 
 
 h1 { 
@@ -85,17 +85,14 @@ img.three-quarter-w {
 
 img.half-w{
 	width: 42vw;
-    max-height: 38vh;
 }
 
 img.quarter-w-w {
 	width: 31vw;
-    max-height: 72vh;
 }
 
 img.quarter-w {
 	width: 22vw;
-    max-height: 37vh;
 }
 
 img.eighth-w-w {
@@ -156,7 +153,6 @@ img.textimg {
 .common-parts {
     border: 5px solid #aaa;
     width: 20vw;
-    max-height: 22vh;
 }
 
 img.schematic {
@@ -170,10 +166,10 @@ img.schematic {
 }
 
 img.breadboard {
-    width: 40vw;
-    height: auto;
-    margin: 0;
-    max-height: 90vh;
+    width: auto;
+    max-width: 40vw;
+    height: 90vh;
+    margin:0;
 }
 
 div {
@@ -277,7 +273,6 @@ div.schematic-container {
     margin-top: 2vh;
     max-height: 35vh;
     margin-left: 0;
-    margin-right: 0.6vw;
 }
 
 
@@ -444,26 +439,17 @@ ul {
 }
 
 li { 
-    padding-left: 1em; 
-    text-indent: -0.1em;
+    padding-left: 2em; 
+    text-indent: -1.1em;
 }
 
-.toc-content li:before {
+li:before {
     content: "\f111";
     font-size: 0.7vw;
     font-family: FontAwesome;
     color: #f86d22; 
     margin-right: 1em;
 }
-
-ol.connections {
-    background-image: url("/img/parts/connections_title.svg");
-    background-repeat: no-repeat;
-    background-size: 1.2vw 5.8vmax;
-    height: 15vmin;
-    padding-left: 4vw;
-}
-
 
 .info, .success, .warning, .error, .browser, .keyboard, .redblock, .blueblock, .greenblock, .blackblock, .orangeblock {
     padding:10px;
